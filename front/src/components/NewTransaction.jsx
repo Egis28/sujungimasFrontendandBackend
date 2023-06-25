@@ -11,7 +11,7 @@ const NewTransaction = ({getData}) => {
         const newTransaction = {
             text: text,
             amount: amount,
-            user: '649543706dc77711371cc807'
+            user: '64880d9600d89562dd23cf1a'
         }
         transactionsService.setTransaction(newTransaction);
 
